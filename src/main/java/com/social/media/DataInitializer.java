@@ -75,11 +75,6 @@ public class DataInitializer {
             user2.getGroups().add(group2);
             user3.getGroups().add(group2);
 
-            // Save users back to database to update associations
-            /*userRepository.save(user1);
-            userRepository.save(user2);
-            userRepository.save(user3);
-            */
 
             // Create some posts
             Post post1 = new Post();
